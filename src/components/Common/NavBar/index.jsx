@@ -1,32 +1,30 @@
-import React, { useContext } from "react";
-import { NavCard } from "../NavCard";
+import { useContext } from "react";
 import { RecipeContext } from "../../../contexts/recipeProvider";
+import { NavCard } from "../NavCard";
 
 export function NavBar() {
-  const { recipes, isLoading, error } = useContext(RecipeContext);
+  const { recipes, isLoading, handleSelectedTag } = useContext(RecipeContext);
   return (
     <nav className="tm-site-nav">
       <ul className="tm-site-nav-ul">
         {!isLoading &&
-          console.log(
-            recipes
-              .map((recipe) => recipe.tag)
-              .reduce((acc, recipe) => {
-                recipe.map((el) => {
-                  if (!acc.includes(el)) {
-                    return [...acc, el];
-                  }
-                });
-              }, [])
-          )}
+          recipes
+            .reduce((acc, recipe) => {
+              recipe.tag.forEach((tag) => {
+                if (!acc.includes(tag)) {
+                  acc.push(tag);
+                }
+              });
+              return acc;
+            }, [])
+            .map((tag) => (
+              <NavCard
+                key={tag}
+                tag={tag}
+                handleSelectedTag={handleSelectedTag}
+              />
+            ))}
       </ul>
     </nav>
   );
 }
-// recipes.reduce((acc, recipe) => {
-//   console.log(recipe.tag);
-//   recipe.tag.map((el) => {
-//     recipe.tag.includes(el);
-//     return [...acc, el];
-//   });
-// })}

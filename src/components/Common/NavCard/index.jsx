@@ -1,12 +1,10 @@
-import React from "react";
-
-export function NavCard() {
+export function NavCard({ tag, handleSelectedTag }) {
   return (
-    <li className="tm-page-nav-item">
-      <a href="#drink" className="tm-page-link active">
+    <li className="tm-page-nav-item" onClick={() => handleSelectedTag(tag)}>
+      <span className="tm-page-link active">
         <i className="fas fa-mug-hot tm-page-link-icon"></i>
-        <span>Drink Menu</span>
-      </a>
+        <span>{tag}</span>
+      </span>
     </li>
   );
 }

@@ -6,6 +6,7 @@ export default function RecipeProvider({ children }) {
   const [recipes, setRecipes] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [tag, setTag] = useState("");
 
   useEffect(() => {
     try {
@@ -24,8 +25,15 @@ export default function RecipeProvider({ children }) {
     }
   }, []);
 
+  const handleSelectedTag = (tag) => {
+    console.log("selectedTag: ", tag);
+    setTag(tag);
+  };
+
   return (
-    <RecipeContext.Provider value={{ recipes, isLoading, error }}>
+    <RecipeContext.Provider
+      value={{ recipes, isLoading, error, tag, handleSelectedTag }}
+    >
       {children}
     </RecipeContext.Provider>
   );

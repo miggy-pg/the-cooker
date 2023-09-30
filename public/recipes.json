@@ -6,7 +6,7 @@
       "description": "The Greek staple",
       "tag": ["Greek"],
       "ingredient": [],
-
+      "price": 99,
       "step": [
         {
           "description": "**Bottom layer:** Slice the eggplants, length-wise into 8mm slices.\nPut them on a pan, add salt and drizzle olive oil.\nBake them at 170-180C for 10-15 minutes."
@@ -103,7 +103,8 @@
         {
           "description": "Add the lemon juice, give it a good stir and serve!"
         }
-      ]
+      ],
+      "price": 129
     },
     {
       "name": "Giouvarlakia",
@@ -190,6 +191,7 @@
           "description": "**That's it!** Serve in bowls, with plenty of liquid. This dish can have a range of consistencies and they're all ok: with a thicker liquid, it's more of a sauce, whereas thinner liquid (like in the picture), is more like soup. Up to you!"
         }
       ],
+      "price": 109,
       "notes": "- For concentrated stock, we love the brand Better than Bouillon. We used chicken.",
       "forked": "- Anastasia's Giouvarlakia\n- https://mybigfatketolife.com/2019/04/05/giouvarlakia/"
     },
@@ -265,6 +267,7 @@
           "description": "Done! It may be a little gooey at first but will be fine when it cools down."
         }
       ],
+      "price": 79,
       "notes": "- Make sure to shake the tahini jar well before measuring the 0.5 cup of tahini. Don't just pour, use a spoon to get the thicker stuff as well that tends to sink at the bottom.\n- Really nice when hot with vanilla or honey ice cream!\n- If you are not avoiding carbs, you can substitute the maple extract with maple syrup (make sure to adjust the honey accordingly).",
       "forked": "[Tal’s Tahini “bread pudding”](https://forkgasm.com/recipes/flourless-banana-bread)"
     },
@@ -328,6 +331,7 @@
           "description": "Done, enjoy! We actually eat it with a spoon straight from the cake tray!"
         }
       ],
+      "price": 139,
       "notes": "- If you are not avoiding carbs, you can substitute the maple extract with maple syrup.\n- Add two bananas and a good handful of walnuts to the mix and you have banana walnut bread!\n- Other ingredients we've tried (not all at once!): cardamom, Grand Marnier, vanilla extract. Feel free to experiment!",
       "forked": "My friend Tal's \"tahini bread\" recipe."
     },
@@ -388,6 +392,7 @@
           "description": "Done! Add to your ice cream machine per manufacturer's instructions or freeze and stir every 30 minutes or so."
         }
       ],
+      "price": 49,
       "notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
       "forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
       "image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
@@ -456,6 +461,7 @@
           "description": "Top with a little more ground pepper and serve!"
         }
       ],
+      "price": 79,
       "notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer. Summer squash or butternut squash noodles are other options.\nLardons are matchstick-sized pieces of bacon. ",
       "forked": "[Zucchini Noodle Carbonara Recipe](https://skinnyms.com/zucchini-noodle-carbonara-recipe/)"
     },
@@ -497,6 +503,7 @@
           "description": "Done! Serve with the sauce on the side."
         }
       ],
+      "price": 99,
       "notes": "- If you’re out of green onions, you can substitute them in the sauce with 1 shallot\n- A good way to use the spice mix is to put it in an empty spice jar and use that to sprinkle it evenly on the lamb chops.\n- This spice mix is delicious and great on so many things! We've tried it on beef, duck, even carbonara! Might be a good idea to make more than is needed for this dish and keep it around.\n- If you have sauce leftovers, it keeps well in the fridge for days in an airtight container. It may darken a bit due to the avocado but it still tastes good.",
       "forked": "[Spiced Lamb Chops with Mint-Mango Sauce](https://www.epicurious.com/recipes/food/views/spiced-lamb-chops-with-mint-mango-sauce-109587)"
     },
@@ -540,6 +547,7 @@
           "description": "Scoop the minced meat into the eggplants, and top it with the béchamel. Bake for 10 minutes at 200C (392F), checking frequently because ovens vary. You may want to turn on the grill (US: broiler) for the last 5 minutes to give the cheese a nice golden brown."
         }
       ],
+      "price": 69,
       "forked": "[Παπουτσάκια με μπεσαμέλ](https://akispetretzikis.com/el/categories/kreas/melitzanes-papoytsakia-me-mpesamel),\nMaria’s moussaka recipe,\n[Low carb roux,  béchamel and souffle](http://www.fatisourfriend.com/roux-bechamel-and-souffle.html)",
       "image": "http://forkgasm.com/images/6410429C-D04A-4624-9026-715C0A64A005.jpeg"
     },
@@ -608,6 +616,7 @@
           "description": "Stir in the parsley, sherry, lemon zest and a generous pinch of salt. Remove from the heat and let stand until the shrimp are cooked through, 3 to 5 minutes. Serve in the skillet, passing crusty bread at the table. "
         }
       ],
+      "price": 109,
       "forked": "[Gambas al Ajillo](http://www.foodandwine.com/recipes/gambas-al-ajillo),\n[Sizzling Shrimp with Garlic (Gambas al Pil Pil)](https://www.williams-sonoma.com/recipe/sizzling-shrimp-with-garlic-gambas-al-pil-pil.html)"
     },
     {
@@ -744,6 +753,7 @@
           "description": "Cook until egg white is _just_ set. Serve immediately, in the pan."
         }
       ],
+      "price": 299,
       "notes": "- The tomato sauce keeps for a couple of days in the fridge. If eating over two days, crack only 4 eggs. Next time, reheat sauce then make 4 more depressions and crack the other 4.\n- We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarara or other sugar can be substituted.\n- Bell peppers are bad for absorbing pesticides, so we always use organic because the skin is eaten.\n- The type of red wine is not critical, honestly. We use small (187ml) “individual” bottles of fairly cheap red wine.",
       "forked": "[Israeli Breakfast Of Champions: Shakshuka](http://www.foodrepublic.com/recipes/israeli-breakfast-of-champions-shakshuka/)",
       "image": "http://forkgasm.com/images/shakshuka.jpg"
@@ -830,6 +840,7 @@
           "description": "If liked, garnish with more whole anchovies and/or Parmesan flakes"
         }
       ],
+      "price": 169,
       "forked": "[Classic Caesar Salad](https://www.bonappetit.com/recipe/classic-caesar-salad#recipe-ingredients)",
       "notes": "We don't use croutons but if you want them, go ahead!\nSauce keeps well in a fridge for a few days.\n"
     },
@@ -878,6 +889,7 @@
           "description": "Broil at 260C/500F for about 5 minutes, checking frequently because ovens vary. Enjoy!"
         }
       ],
+      "price": 239,
       "forked": "[Fat Head Pizza - The HOLY GRAIL Of Low Carb Pizzas ](https://www.ditchthecarbs.com/fat-head-pizza/)"
     },
     {
@@ -982,6 +994,7 @@
           "description": "Grate the nutmeg into the mixture and serve."
         }
       ],
+      "price": 459,
       "notes": "- If you can find smoked cheddar, use a mixture of 50% smoked cheddar and 50% normal cheddar (it's very strong so not 100%). \n- Don’t allow the cream to overcook or it will separate!\n- You can probably cook the pepper in with the mushrooms and ignore the coconut oil, if desired."
     },
     {
@@ -1053,6 +1066,7 @@
           "description": "Put aside in fridge for at least 4 hours and serve, garnishing with the balsamic reduction, parsley and the onion from step 1."
         }
       ],
+      "price": 399,
       "forked": "Original recipe by Lea Dam Jensen"
     },
     {
@@ -1115,6 +1129,7 @@
           "description": "Once it's reduced and the octopus and vegetables are tender add 1tbsp olive oil, mix, and serve! Makes about 6 portions."
         }
       ],
+      "price": 129,
       "notes": "The original version uses potatoes, but we have used turnips, okra and other vegetables with good success. Turnips also make the dish low carb. The one in the photo uses okra.\nΧταπόδι κρασάτο is the Greek name.",
       "forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)"
     },
@@ -1190,6 +1205,7 @@
           "description": "Garnish with the sliced spring onion and serve!"
         }
       ],
+      "price": 599,
       "notes": "Not low carbing? You can use brown sugar in place of erythritol.",
       "forked": "[Sous Vide Salmon Teriyaki](https://www.williams-sonoma.com/recipe/sous-vide-salmon-teriyaki.html)"
     },
@@ -1277,6 +1293,7 @@
           "description": "Spread on a deep, oiled baking tray and bake at 180-200C (350-390F) for about 40 minutes or until golden."
         }
       ],
+      "price": 269,
       "notes": "- Graviera is a Greek hard light yellow cheese. Can’t find graviera? Use any yellow cheese that melts. The sfouggato in this photo was actually made with cheddar!\n- Don’t have all the ingredients? Worry not! This is a dish with many variations. Most of the ingredients are optional. What is absolutely mandatory is the eggs, zucchinis, some herbs (parsley, dill, and/or mint), some kind of cheese, and some kind of onion (only red onion or only spring onion is ok).",
       "forked": "[Σφουγγάτο το Μυτιληνιό](https://akispetretzikis.com/el/categories/almyres-pites-tartes/sfoyggato-to-mytilhnio), [Σφουγγάτο Μυτιλήνης με κολοκυθάκια](https://www.madameginger.com/syntages/syntages-mageirikis/ayga/sfouggato-mutilinis/)"
     },
@@ -1368,6 +1385,7 @@
           "description": "Finish with the lemon juice and serve."
         }
       ],
+      "price": 369,
       "image": "/images/khoresht-karafs.png",
       "tag": ["Stew", "Persian", "Beef"],
       "forked": "Elika’s family recipe (added garlic and beef stock)",
@@ -1393,6 +1411,7 @@
           "description": "Chill in the fridge for at least 3 hours, then enjoy!"
         }
       ],
+      "price": 69,
       "notes": "- We use Sukrin Gold and Sukrin Icing for sweetening. We've tried many and think those are as close as it gets to the sugar equivalents and have no aftertaste.\n- You can use less mascarpone, the middle layer will just be less thick. Adjust the rest of the quantities accordingly in that case.",
       "id": "cheesecake"
     },
@@ -1473,6 +1492,7 @@
           "description": "Garnish with cilantro and basil."
         }
       ],
+      "price": 49,
       "forked": "[Curried Beef Stew](https://www.epicurious.com/recipes/food/views/curried-beef-stew-380591)",
       "id": "curried-beef-stew"
     },
@@ -1558,6 +1578,7 @@
           "description": "Add beans to the pot and simmer for another 30 minutes"
         }
       ],
+      "price": 189,
       "notes": "* You will probably need to visit an Iranian grocery store for limoo amani (dried limes) and dried fenugreek leaves.\n* Persian grocery stores also sell frozen mixture of chopped herbs for Ghormeh Sabzi that would make this a lot faster",
       "forked": "Elika's mom's recipe"
     }
