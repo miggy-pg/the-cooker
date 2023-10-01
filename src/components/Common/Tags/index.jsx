@@ -3,19 +3,19 @@ export function Tags() {
     <nav className="tm-black-bg tm-drinks-nav">
       <ul>
         <li>
-          <a href="#" className="tm-tab-link active" data-id="cold">
+          <span href="#" className="tm-tab-link active" data-id="cold">
             Food
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#" className="tm-tab-link" data-id="hot">
+          <span href="#" className="tm-tab-link" data-id="hot">
             Processing
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#" className="tm-tab-link" data-id="juice">
+          <span href="#" className="tm-tab-link" data-id="juice">
             Payment
-          </a>
+          </span>
         </li>
       </ul>
     </nav>

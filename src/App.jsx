@@ -1,13 +1,16 @@
+import { Provider } from "react-redux";
 import RecipeProvider from "./contexts/recipeProvider";
 import Homepage from "./pages/Homepage";
 
+import store from "./redux/store";
+
 function App() {
   return (
-    <>
-      <RecipeProvider>
+    <RecipeProvider>
+      <Provider store={store}>
         <Homepage />
-      </RecipeProvider>
-    </>
+      </Provider>
+    </RecipeProvider>
   );
 }
 
