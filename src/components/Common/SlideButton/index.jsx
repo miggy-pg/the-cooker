@@ -1,8 +1,27 @@
 import { useState, useEffect, useRef } from "react";
 import { useSwipeable } from "react-swipeable";
 import Arrow from "../../../../public/arrow.png";
+import { FoodCard } from "../FoodCard";
 
 import "./slideBtn.css";
+
+const slideButton = {
+  position: "absolute",
+  left: "0",
+  top: "0",
+  // border: "2px solid #444",
+  minWidth: "100px",
+  padding: "11px",
+  overflow: "hidden",
+  color: "#000",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  cursor: "default",
+  userSelect: "none",
+  border: "1px solid yellow",
+  /* box-sizing: border-box; */
+};
 
 const dirTypes = ["Left", "Down", "Up"];
 
@@ -23,7 +42,7 @@ const SlideButton = ({
   minSlideWidth = 0.6,
   minSlideVelocity = 0.6,
   caret = null,
-  customCaretWidth = 40,
+  customCaretWidth = 660,
 }) => {
   const [overlayWidth, setOverlayWidth] = useState(customCaretWidth);
   const [slideComplete, setSlideComplete] = useState(false);
@@ -43,8 +62,10 @@ const SlideButton = ({
       console.log("butWidth: ", butWidth);
       if (data.velocity > minSlideVelocity) {
         setOverlayWidth(butWidth);
-        setSlideComplete(true);
-        setTimeout(() => onSlideDone(), 100);
+        // setSlideComplete(true);
+        console.log("setTimeoutHere: ");
+
+        setTimeout(() => onSlideDone(), 300);
       } else {
         const offsetLeft = findLeft(buttonRef.current);
         console.log("onSwipedRight-offsetLeft: ", offsetLeft);
@@ -59,7 +80,7 @@ const SlideButton = ({
         ) {
           console.log("onSwipedRight-1: ", butWidth);
           setOverlayWidth(butWidth);
-          setSlideComplete(true);
+          // setSlideComplete(true);
           setTimeout(() => onSlideDone(), 100);
         } else setOverlayWidth(customCaretWidth);
       }
@@ -74,13 +95,16 @@ const SlideButton = ({
       if (startPos <= 100 + customCaretWidth) {
         if (data.event.type && data.event.type === "touchmove") {
           console.log("here 1");
+          console.log("here 1", data);
           console.log(data.event.touches[0].clientX - offsetLeft);
           setOverlayWidth(data.event.touches[0].clientX - offsetLeft);
         } else {
           console.log("here 2");
-          console.log("here 2: ", customCaretWidth);
+          console.log("here 2 data: ", data);
+          console.log("here 2 customCaretWidth: ", customCaretWidth);
           if (data.event.offsetX > customCaretWidth) {
             console.log("here 3: ", data.event.offsetX);
+            // setMoveLeft(data.event.offsetX - customCaretWidth);
             setOverlayWidth(data.event.offsetX);
           }
         }
@@ -90,7 +114,7 @@ const SlideButton = ({
     trackMouse: true,
     preventDefaultTouchmoveEvent: true,
   });
-
+  console.log("overlayWidth: ", overlayWidth);
   return (
     <div
       className={`slide-but ${classList}`}
@@ -115,16 +139,18 @@ const SlideButton = ({
             {caret ? (
               caret
             ) : (
-              <img src={Arrow} alt="caret" style={{ maxWidth: "100%" }} />
+              <FoodCard />
+
+              // <img src={Arrow} alt="caret" style={{ maxWidth: "100%" }} />
             )}
           </div>
           <div className="slide-overlay-txt" style={{ width: overlayWidth }}>
-            {overlayText}
+            {/* {overlayText} */}
           </div>
         </div>
       </div>
 
-      {mainText}
+      {/* {mainText} */}
     </div>
   );
 };

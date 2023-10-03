@@ -20,7 +20,6 @@ export function FoodList() {
           minSlideWidth={0.1}
           onSlideDone={() => console.log("Done!")}
         />
-        {/* <FoodCard /> */}
         {/* {!isLoading &&
           recipes.map(
             (recipe) =>

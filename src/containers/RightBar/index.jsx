@@ -4,7 +4,7 @@ import { FoodList } from "../../components/Management/FoodList";
 
 export function RightBar() {
   const customer = useSelector((store) => store.customer);
-  console.log("customer: ", customer);
+  // console.log("customer: ", customer);
 
   return (
     <div className="tm-right">
